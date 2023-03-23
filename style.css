@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body#principal{
+    background-image: url(../assets/img/para\ poster\ .jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+body#menu{
+    background-image: url(../assets/img/fondo\ paginas.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+.menu{
+    width: 1280px;
+    height: 1fr;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+}
+.carta{
+    margin: 0.5rem;
+}
+.cabeza{
+    width: 600px;
+}
+.boton{
+    align-items: flex-end;
+    justify-content: center;
+    width: 650px;
+}
+.selector{
+background-color: rgb(18, 22, 83);
+    width: auto;
+    height: 500px;
+
+}
+.caja{
+    height: 100vh;
+    display: grid;
+    gap:0.3rem ;
+    grid-template-rows: 0.6fr 2fr 0.2fr 0.1fr;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-areas: "header nav nav nav"
+    "main main aside aside"
+    "section section section section"
+    "footer footer footer footer"
+    ;
+}
+header{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+nav{
+    grid-area: nav;
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items:center;
+}
+ul{
+    list-style-type: none;
+}
+.boton1{
+    color: white;
+  display: inline-block;
+  list-style-position: outside;
+  }
+  .boton2{
+      color: white;
+    display: inline-block;
+    list-style-position: outside;
+    }
+    .boton3{
+      color: white;
+    display: inline-block;
+    list-style-position: outside;
+    }
+    .boton4{
+      color: white;
+    display: inline-block;
+    list-style-position: outside;
+    }
+    .boton5{
+      color: white;
+    display: inline-block;
+    list-style-position: outside;
+    }
+main{
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:left;
+    
+}
+H1{
+margin: 15px;
+color: aliceblue;
+
+}
+.texto{
+    margin: 3%;
+    color: aliceblue;
+    text-align: justify
+}
+aside{
+    grid-area: aside;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;  
+}
+
+section{
+    grid-area: section;
+    background-color: black;
+  
+    
+}
+.logos{
+    margin: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+}
+
+footer{
+    grid-area: footer;
+    background-color: rgb(12, 12, 8);
+    position: relative;
+}
+p{
+    text-align: center;
+    color: aliceblue;
+    margin-top: 5px;  
+}
