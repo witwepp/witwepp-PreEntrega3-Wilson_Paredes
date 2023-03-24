@@ -4,10 +4,17 @@
 	box-sizing: border-box;
 }
 
+#principal {
+  background-color: black;
+  background-size: 100% auto;
+  background-position: center top;
+  background-repeat: no-repeat;
+ }
+ 
 .nav{
     justify-content: flex-end;
     align-items:center;
-  ul{ /* Hacemos flex al ul */
+  ul{ /*MENU */
       display: flex; 
       justify-content: center; 
       justify-content: space-evenly; 

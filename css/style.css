@@ -3,11 +3,17 @@
   padding: 0;
   box-sizing: border-box; }
 
+#principal {
+  background-color: black;
+  background-size: 100% auto;
+  background-position: center top;
+  background-repeat: no-repeat; }
+
 .nav {
   justify-content: flex-end;
   align-items: center; }
   .nav ul {
-    /* Hacemos flex al ul */
+    /*MENU */
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
