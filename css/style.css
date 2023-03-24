@@ -4,7 +4,7 @@
   box-sizing: border-box; }
 
 #principal {
-  background-color: black;
+  background: url("../assets/img/fondo paginas.jpg");
   background-size: 100% auto;
   background-position: center top;
   background-repeat: no-repeat; }
