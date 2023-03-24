@@ -3,5 +3,15 @@
   padding: 0;
   box-sizing: border-box; }
 
-.principal {
-  background-color: black; }
+.nav {
+  justify-content: flex-end;
+  align-items: center; }
+  .nav ul {
+    /* Hacemos flex al ul */
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 5;
+    padding: 6;
+    list-style-type: none;
+    overflow: hidden; }
