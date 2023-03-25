@@ -4,10 +4,10 @@
   box-sizing: border-box; }
 
 #principal {
-  background: url("../assets/img/fondo paginas.jpg");
-  background-size: 100% auto;
-  background-position: center top;
-  background-repeat: no-repeat; }
+  background: url("../assets/img/fondo.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%; }
 
 .nav {
   justify-content: flex-end;

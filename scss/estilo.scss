@@ -5,10 +5,10 @@
 }
 
 #principal {
-  background-color: black;
-  background-size: 100% auto;
-  background-position: center top;
+  background: url("../assets/img/fondo.png") ;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
  }
  
 .nav{
