@@ -9,11 +9,27 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
+  .video{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;  
+  }
+  .redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;  
+  }
  }
  
-.nav{
+  .nav{
+    grid-area: nav;
     justify-content: flex-end;
     align-items:center;
+
+ 
+
   ul{ /*MENU */
       display: flex; 
       justify-content: center; 
@@ -23,8 +39,8 @@
       list-style-type: none;
       overflow: hidden;
   } 
-}
 
+  }
 .carousel-item {
   height: 80vh;
   min-height: 100px;
