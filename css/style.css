@@ -8,6 +8,10 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%; }
+  #principal .PIZZAS {
+    color: white; }
+  #principal .INTRO {
+    color: white; }
   #principal .video {
     display: flex;
     flex-direction: row;
