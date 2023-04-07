@@ -58,7 +58,19 @@
   -o-background-size: cover;
   background-size: cover;
 }
+.HISTORIA {
+  color: rgb(255, 255, 255);
+}
 
+.reseña{
+  height: 50vh;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+
+}
 footer{
   color: aliceblue;
 }
