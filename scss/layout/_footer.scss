@@ -1,0 +1,13 @@
+// Importar variables 
+@use '../base/variables' as v;
+
+footer {
+    color: v.$blanco;
+
+    img {
+      &:hover {
+        transform: scale(1.2);
+        transition: transform 0.5s ease-out;
+      }
+    }
+  }

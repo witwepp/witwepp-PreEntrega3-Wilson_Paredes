@@ -1,0 +1,42 @@
+// Importar variables 
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
+
+#principal {
+
+    header {
+        .logo-ppal {
+            display: block;
+            margin: 0 auto;
+
+            @include m.tablet {
+                position: absolute;
+                z-index: 100;
+            }
+        }
+
+        nav {
+
+            button {
+                background-color: v.$naranja;
+            }
+
+            li {
+
+                .active {
+                    color: v.$rojo;
+                }
+
+                a {
+                    color: v.$naranja;
+
+                    &:hover {
+                        color: v.$blanco;
+                        transform: scale(1.2);
+                        transition: transform 0.5s ease-out;;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,66 @@
+// Importar variables 
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
+
+#principal {
+    main {
+        .pizzas {
+          color: v.$blanco;
+        }
+    
+        .intro {
+          color: v.$blanco;
+          text-align: justify;
+        }
+    
+        .carousel {
+          .carousel-caption {
+            bottom: 0.25rem;
+          }
+    
+          .carousel-item {
+    
+            height: 85vh;
+            min-height: 50px;
+            background: no-repeat center center scroll;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+    
+            img {
+              height: 90%;
+              width: auto;
+            }
+          }
+        }
+    
+        .historia {
+          color: v.$blanco;
+          margin-top: 0px;
+
+            @include m.tablet {
+                margin-top: 75px;
+                }
+        }
+    
+        .texto-historia {
+          text-align: justify;
+          max-width: 800px;
+          margin: 0 auto;
+          color: v.$blanco;
+
+          @include m.tablet {
+            margin-bottom: 50px;
+            }
+    
+        }
+    
+        .formulario {
+          max-width: 400px;
+          margin: 0 auto;
+        }
+    
+      }
+
+}

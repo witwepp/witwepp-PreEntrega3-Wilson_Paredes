@@ -1,0 +1,111 @@
+/************** ( 'Fuentes' ) **************/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800&display=swap");
+/************** ( 'Colores' ) **************/
+#principal header .logo-ppal {
+  display: block;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  #principal header .logo-ppal {
+    position: absolute;
+    z-index: 100;
+  }
+}
+#principal header nav button {
+  background-color: rgba(233, 129, 0, 0.9019607843);
+}
+#principal header nav li .active {
+  color: #ff1f1f;
+}
+#principal header nav li a {
+  color: rgba(233, 129, 0, 0.9019607843);
+}
+#principal header nav li a:hover {
+  color: #ffffff;
+  transform: scale(1.2);
+  transition: transform 0.5s ease-out;
+}
+
+#principal main .pizzas {
+  color: #ffffff;
+}
+#principal main .intro {
+  color: #ffffff;
+  text-align: justify;
+}
+#principal main .carousel .carousel-caption {
+  bottom: 0.25rem;
+}
+#principal main .carousel .carousel-item {
+  height: 85vh;
+  min-height: 50px;
+  background: no-repeat center center scroll;
+  background-size: cover;
+}
+#principal main .carousel .carousel-item img {
+  height: 90%;
+  width: auto;
+}
+#principal main .historia {
+  color: #ffffff;
+  margin-top: 0px;
+}
+@media (min-width: 768px) {
+  #principal main .historia {
+    margin-top: 75px;
+  }
+}
+#principal main .texto-historia {
+  text-align: justify;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #ffffff;
+}
+@media (min-width: 768px) {
+  #principal main .texto-historia {
+    margin-bottom: 50px;
+  }
+}
+#principal main .formulario {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+#principal {
+  background: url("../assets/img/fondo.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+#principal .video {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#principal .redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  color: #ffffff;
+}
+footer img:hover {
+  transform: scale(1.2);
+  transition: transform 0.5s ease-out;
+}/*# sourceMappingURL=app.css.map */
