@@ -10,4 +10,11 @@ footer {
         transition: transform 0.5s ease-out;
       }
     }
+
+    .redes {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
   }

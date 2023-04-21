@@ -2,9 +2,13 @@
 <html lang="en">
 
 <head>
+  <!-- etiquetas meta, no visibles para el usuario exepto el tittle -->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- logo favicon -->
+  <link rel="icon" type="image/x-icon" href="../assets/img/favicon.png">
+  <!-- descripción del lugar -->
   <meta name="description"
     content="Descubre la deliciosa gastronomía de nuestro restaurante, con platos exquisitos preparados con ingredientes frescos y de calidad. Disfruta de un ambiente acogedor, un servicio amable y precios asequibles. ¡Visítanos y saborea una experiencia gastronómica única en nuestro restaurante!">
 
@@ -14,17 +18,18 @@
   <!-- Importación libreria animaciones -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <!-- hoja de estilos -->
-  <link rel="stylesheet" href="../scss/app.css">
+  <link rel="stylesheet" href="../css/app.css">
   <title>🍕SABORYARTE | CONTACO🍕</title>
 </head>
 
 
 <body id="principal">
-
+  <!-- Sección header de la página -->
   <header class="p-4">
     <a href="/">
       <img src="../assets/img/logo.png" width="250px" alt="saboryarte" class="logo-ppal img-fluid animate__bounceIn" />
     </a>
+    <!-- barra de navgacion -->
     <nav class="navbar navbar-expand-md navbar-light">
       <div class="container-fluid justify-content-center">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -53,12 +58,9 @@
       </div>
     </nav>
   </header>
-
+  <!-- como llegar-->
   <main class="p-4">
-    <div style="width: 600px; height: 200px;"> <!-- DEBE IR EN SASS -->
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1873.737036735446!2d-72.96400208076037!3d5.668165175146976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e6a44ebf544d469%3A0xa6e5e24d197d9115!2sPizzas%20y%20Pastas%20Horno%20A%20Le%C3%B1a!5e0!3m2!1ses-419!2sco!4v1681886983216!5m2!1ses-419!2sco" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-
+    <!-- formulario de contacto -->
     <div class="container mt-5">
       <h1 class="text-white text-center">Formulario de Contacto</h1>
       <form action="#" method="post" class="formulario">
@@ -80,31 +82,36 @@
           <button type="submit" class="btn btn-warning">Enviar</button>
         </div>
       </form>
+      <div class="mapa"> 
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1873.737036735446!2d-72.96400208076037!3d5.668165175146976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e6a44ebf544d469%3A0xa6e5e24d197d9115!2sPizzas%20y%20Pastas%20Horno%20A%20Le%C3%B1a!5e0!3m2!1ses-419!2sco!4v1681886983216!5m2!1ses-419!2sco" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
     </div>
   </main>
-
+  <!-- pie de pagina -->
   <footer>
-    <div class="p-4">
+    <div>
       <div class="row">
         <div class="col-lg-12 redes">
           <a href="https://www.instagram.com/p/CgH_gc7Aw1C/" target="_blank" class="p-2">
-            <img src="../assets/img/logo instagram.png" width="50px" alt="Logo Instagram" class="img-fluid" />
+            <img src="../assets/img/logo instagram.png" width="40px" alt="Logo Instagram" class="img-fluid" />
           </a>
           <a href="https://www.facebook.com/profile.php?id=100063594102768" target="_blank" class="p-2">
             <img
               src="../assets/img/kisspng-facebook-inc-logo-computer-icons-like-button-facebook-icon-5aba7ea7a78165.0123240515221715596861.png"
-              width="50px" alt="Logo Facebook" />
+              width="40px" alt="Logo Facebook" class="img-fluid" />
           </a>
           <a href="https://web.whatsapp.com/send/?phone=%2B573208377489&fbclid=IwAR12P7Bh4O0Stc9BAluvsjaC0ZGdlbcC4yYqia2TA0aWbDGp8Hb1slVpkpo"
             target="_blank" class="p-2">
-            <img src="../assets/img/whataspp.png" width="50px" alt="Logo Whatsapp" class="img-fluid" />
+            <img src="../assets/img/whataspp.png" width="40px" alt="Logo Whatsapp" class="img-fluid" />
           </a>
         </div>
       </div>
     </div>
+    <p class="todos text-center">🗺 Kilometro 6 Vía Sogamoso-Iza | 🗨 saboryartepublicidad@gmail.com | ☎ +573208377489</p>
     <p class="todos text-center">Todos los Derechos Reservados</p>
   </footer>
 
+  <!-- importacion de script de javascript -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
     integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
     crossorigin="anonymous"></script>

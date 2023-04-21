@@ -66,9 +66,33 @@
     margin-bottom: 50px;
   }
 }
+#principal main .mapa {
+  width: 250px;
+  height: 200px;
+  display: flex;
+  margin: 30px auto 0 auto;
+}
+@media (min-width: 480px) {
+  #principal main .mapa {
+    width: 400px;
+    height: 300px;
+  }
+}
+@media (min-width: 768px) {
+  #principal main .mapa {
+    width: 600px;
+    height: 400px;
+  }
+}
 #principal main .formulario {
   max-width: 400px;
   margin: 0 auto;
+}
+#principal main .video {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 * {
@@ -89,18 +113,6 @@ body {
   background-position: center center;
   position: relative;
 }
-#principal .video {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-#principal .redes {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
 
 footer {
   color: #ffffff;
@@ -108,4 +120,10 @@ footer {
 footer img:hover {
   transform: scale(1.2);
   transition: transform 0.5s ease-out;
+}
+footer .redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=app.css.map */
